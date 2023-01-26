@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1.5rem);
+  grid-template-rows: repeat(7, 1.5rem);
+  gap: 0.5rem;
+  &__box {
+    background-color: red;
+  }
+}
